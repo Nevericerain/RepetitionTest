@@ -1,14 +1,13 @@
 //============================================================================================
 //    There are many factors which may make a difference to the probability of the repetition.
-//    We mainly consider six of them in our experimentation:
+//    We mainly consider five of them in our experimentation:
 //    (1) The PF upper size
-//    (2) The pace of changing a PF¡¯s size
+//    (2) The pace of changing a PFï¿½ï¿½s size
 //    (3) The count of PFs
-//    (4) The sequence of moving PFs
-//    (5) The size of free space in the stable storage device
-//    (6) The measurement of PF location
+//    (4) The size of free space in the stable storage device
+//    (5) The measurement of PF location
 //    You can study these factors by changing this source code.
-//    In this test program, we mainly study factor(6).We measure a PF's location by extracting
+//    In this test program, we mainly study factor(5).We measure a PF's location by extracting
 //its first and last sector cluster numbers in the hard disk. All the sizes of PFs ate controlled
 //within 512KB. The count of PFs is three. We move PFs in an ascending number sequence. As to 
 //factor(2), the size change cycle of PF1, PF2 and PF3 are 83, 97 and 113, and we compute their
